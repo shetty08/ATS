@@ -4,6 +4,7 @@ import os
 import PyPDF2 as pdf
 from dotenv import load_dotenv
 import json
+os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "G:\ATS\light-client-413216-8dd2e0484068.json"
 
 load_dotenv() 
 
